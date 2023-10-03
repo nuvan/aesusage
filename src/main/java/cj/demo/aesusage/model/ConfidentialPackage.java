@@ -1,2 +1,3 @@
-package cj.demo.aesusage.model;public class ConfidentialPackage {
-}
+package cj.demo.aesusage.model;
+
+public record ConfidentialPackage(String content) { }
